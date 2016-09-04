@@ -1,0 +1,35 @@
+{
+  "name": "final-working-day",
+  "version": "1.0.0",
+  "description": "Get final working day of the month",
+  "license": "MIT",
+  "repository": "johnie/final-working-day",
+  "author": {
+    "name": "Johnie Hjelm",
+    "email": "johnie@hjelm.im",
+    "url": "johnie.se"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "date",
+    "work",
+    "day",
+    "month"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "chai": "^3.5.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
