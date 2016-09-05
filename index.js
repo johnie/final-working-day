@@ -17,7 +17,7 @@ const finalWorkingDay = function (year, month) {
 	}
 
 	if (typeof month === 'undefined' || month === null) {
-		month = date.getMonth();
+		month = date.getMonth() + 1;
 	}
 
 	do {
