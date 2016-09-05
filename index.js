@@ -24,7 +24,7 @@ const finalWorkingDay = function (year, month) {
 		result = new Date(year, month, offset);
 
 		offset--;
-	} while (result.getDay() === 0 || result.getDay() === 0);
+	} while (result.getDay() === 0 || result.getDay() === 6);
 
 	return result;
 };
