@@ -12,11 +12,11 @@ const finalWorkingDay = function (year, month) {
 	let offset = 0;
 	let result = null;
 
-	if (typeof year === undefined || year === null) {
+	if (typeof year === 'undefined' || year === null) {
 		year = date.getFullYear();
 	}
 
-	if (typeof month === undefined || month === null) {
+	if (typeof month === 'undefined' || month === null) {
 		month = date.getMonth();
 	}
 
